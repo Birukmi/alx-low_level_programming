@@ -1,9 +1,11 @@
 #include<stdio.h>
 /**
- * display using puts( ) function
- * 
+ * main- entry point
+ *
+ *Return - 0 after printing the fiunction
  */
-int main(void){
+int main(void)
+{
 puts("\"Programming is like building a multilingual puzzle");
 return (0);
 }

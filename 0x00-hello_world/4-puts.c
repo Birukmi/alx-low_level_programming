@@ -3,7 +3,7 @@
  * display using puts( ) function
  * 
  */
-int main(vooid){
+int main(void){
 puts("\"Programming is like building a multilingual puzzle");
-return 0;
+return (0);
 }

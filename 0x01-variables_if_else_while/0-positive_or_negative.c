@@ -24,7 +24,7 @@ printf("The number is positive\n");
 	else 
 	{
 		printf("The number is negative\n");
-				return (0);
 
 		}
+return (0);
 }

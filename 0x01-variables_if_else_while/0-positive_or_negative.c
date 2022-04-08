@@ -27,3 +27,4 @@ printf("The number is positive\n");
 				return (0);
 
 		}
+}

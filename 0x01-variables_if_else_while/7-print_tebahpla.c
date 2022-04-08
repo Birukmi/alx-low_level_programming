@@ -7,7 +7,7 @@ int main(void)
 {
 	char alpha;
 
-	for(alpha = 'Z'; alpha >= 'A'; alpha--)
+	for (alpha = 'z'; alpha >= 'a'; alpha--)
 	{
 		printf("%c", alpha);
 	}

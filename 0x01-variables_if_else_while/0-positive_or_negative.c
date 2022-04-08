@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include <stdlib.h>
 
 #include <time.h>
@@ -15,6 +16,7 @@ int main(void)
 	if (n==0)
 	{
 	printf("The number is positive\n");
+	}
 	else if (n>0)
 	{
 prinf("The number is positive\n");

@@ -4,7 +4,7 @@
  *
  * REturn: return value
  * */
-int print_alphabet(void)
+void print_alphabet(void)
 {
 	int i;
 

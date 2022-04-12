@@ -6,15 +6,15 @@
  */
 int main(void)
 {
-	cahr a[]= "_putchar";
+	char a[]= "_putchar";
 
 	int i;
 
 	for (i = 0; i < 8; i++)
 	{
-		_putcha(a[]);
+		_putchar(a[]);
 	}
 
-	_putchar("\n");
+	_putchar('\n');
 	return (0);
 }

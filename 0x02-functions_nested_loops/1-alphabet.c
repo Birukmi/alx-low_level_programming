@@ -3,7 +3,7 @@
  * print_alphapet - prints alphabet in lower case
  *
  * REturn: return value
- * */
+ */
 void print_alphabet(void)
 {
 	int i;
@@ -12,6 +12,5 @@ void print_alphabet(void)
 	{
 		_putchar(i);
 	}
-	
 	_putchar('\n');
 }

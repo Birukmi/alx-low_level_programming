@@ -6,9 +6,9 @@
  */
 int main(void)
 {
-	srand((unsigned int)(time(NULL)));
 	int i;
 	char pass[20];
+	srand((unsigned int)(time(NULL)));
 
 	for (i = 0; i < 4; i++)
 	{

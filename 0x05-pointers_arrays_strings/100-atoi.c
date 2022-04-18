@@ -29,10 +29,10 @@ int _atoi(char *s)
 				break;
 			}
 		}
-		else if(s[i] == '-')
+		else if (s[i] == '-')
 		{
 			j *= -1;
 		}
 	}
-	return (num *j);
+	return (num * j);
 }

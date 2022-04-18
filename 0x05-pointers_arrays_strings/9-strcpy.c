@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * *_strcpy -  copies the string pointed to by src
+ * _strcpy -  copies the string pointed to by src
  * @dest: the buffer pointed to
  * @src: the buffer to be copied
  *
@@ -13,9 +13,9 @@ char *_strcpy(char *dest, char *src)
 	i = 0;
 	while (src[i] != '\0')
 	{
-		dust[i] = src[i];
+		dest[i] = src[i];
 		i++;
 	}
-	dust[i] = '\n';
-	Return (dust);
+	dest[i] = '\n';
+	return (dest);
 }

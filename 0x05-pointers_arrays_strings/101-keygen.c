@@ -21,4 +21,5 @@ int main(void)
 		printf("%d%c%c", pass[i], pass[i + 2], pass[i + 3]);
 	}
 	printf("\n\n");
+	return (0);
 }

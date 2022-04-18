@@ -8,7 +8,7 @@ int main(void)
 {
 	int i;
 	char pass[20];
-	char capLetter, letter
+	char capLetter, letter;
 	srand((unsigned int)(time(NULL)));
 
 	for (i = 0; i < 4; i++)

@@ -2,6 +2,8 @@
 #include <time.h>
 #include "main.h"
 #include <stdlib.h>
+/**
+ */
 int main(void)
 {
 	int i;

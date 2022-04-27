@@ -25,7 +25,7 @@ int is_prime_number(int num)
  * @i: integer
  * Return: return evaluate function value
  */
-int evaluate(num, i)
+int evaluate(int num, int i)
 {
 	if (i == num - 1)
 	{

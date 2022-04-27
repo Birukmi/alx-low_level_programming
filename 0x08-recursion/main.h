@@ -10,3 +10,4 @@ int _putchar(char c);
 int _evaluate(int i, int n);
 int evaluate(int num, int i);
 int pali(char *s, int i);
+int wildcmp(char *s1, char *s2);

@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * is_prime_number - evaluate prime or not
- * @n: integer no
+ * @num: integer no
  * Return: reteurn the value of the function
  */
 int is_prime_number(int num)

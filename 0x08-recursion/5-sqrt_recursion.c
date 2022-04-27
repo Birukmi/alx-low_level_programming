@@ -14,16 +14,16 @@ int _sqrt_recursion(int n)
 	}
 	else
 	{
-		return (_sqrt(i, n));
+		return (_evaluate(i, n));
 	}
 }
 /**
- * _sqrt - evaluate _sqrt function
+ * _evaluate - evaluate _sqrt function
  * @i: integer value
  * @n: integer value
  * Return: return sqrt function value
  */
-int _sqrt(int i, int n)
+int _evaluate(int i, int n)
 {
 	if (n == 0 || n == 1)
 	{
@@ -31,7 +31,7 @@ int _sqrt(int i, int n)
 	}
 	else if (i * i < n)
 	{
-		return (_sqrt(i + 1, n));
+		return (_evaluate(i + 1, n));
 	}
 	else if (i * i == n)
 	{

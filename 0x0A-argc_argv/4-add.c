@@ -23,7 +23,7 @@ int check_num(char *str)
 	return (1);
 }
 /**
- * main - adds positive numbers.
+ * main - Print the name of the program
  * @argc: Count arguments
  * @argv: Arguments
  * return: Always 0

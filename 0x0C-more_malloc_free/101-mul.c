@@ -7,7 +7,7 @@
  */
 int main(int argc, char *argv[])
 {
-	long mul;
+	unsigned int mul;
 	int i, j;
 
 	if (argc != 3)
